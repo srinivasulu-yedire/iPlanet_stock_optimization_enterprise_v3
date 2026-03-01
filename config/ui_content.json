@@ -1,0 +1,9 @@
+{
+    "forecasting_help": {
+        "title": "🔍 Click here for a detailed explanation of how these models work",
+        "paragraphs": [
+            "**The Mechanics of Forecasting:** The system uses a competitive modeling approach where three distinct algorithms—Prophet, XGBoost, and Random Forest—analyze your historical sales patterns. Prophet identifies broad seasonal trends and 'holiday' effects by treating time as a curve, while XGBoost and Random Forest utilize decision-tree logic to break down dates into numerical features (Day, Month, Year). By analyzing the relationship between these time-features and your historical quantity sold, the models identify recurring patterns such as month-end spikes or weekend lulls, creating a mathematical map of your demand history.",
+            "**Validation and Future Projection:** To ensure accuracy, the system performs a 'back-test' by hiding the most recent 20% of your data and asking the models to predict it. The model with the lowest Mean Absolute Error (MAE) is crowned the winner. Once selected, this winning model is re-trained on your entire 30-day dataset. It then projects these learned patterns into the future horizon (7 or 30 days), calculating the expected daily sales. These future values are then used to determine your Economic Order Quantity (EOQ) and Reorder Point, ensuring your stock levels align perfectly with predicted consumer behavior."
+        ]
+    }
+}

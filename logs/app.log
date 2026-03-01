@@ -1,0 +1,406 @@
+2026-02-28 21:22:53,847 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-02-28 21:23:02,584 - INFO - === APPLICATION STARTED ===
+2026-02-28 21:23:03,845 - INFO - === APPLICATION LOADED ===
+2026-02-28 21:23:50,371 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-02-28 21:23:52,726 - INFO - === APPLICATION STARTED ===
+2026-02-28 21:23:53,509 - INFO - === APPLICATION LOADED ===
+2026-02-28 21:24:04,386 - INFO - === APPLICATION STARTED ===
+2026-02-28 21:24:04,446 - INFO - File uploaded successfully
+2026-02-28 21:24:04,470 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 21:24:04,616 - INFO - Feature engineering completed
+2026-02-28 21:24:04,618 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 21:24:04,619 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 21:24:04,641 - INFO - Training Prophet model...
+2026-02-28 22:49:45,501 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 22:49:45,519 - INFO - Feature engineering completed
+2026-02-28 22:49:45,520 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 22:49:45,520 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 23:00:43,327 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:04:04,915 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:04:04,924 - INFO - Feature engineering completed
+2026-02-28 23:04:04,925 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 23:04:04,931 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 23:04:04,940 - INFO - Training Prophet model...
+2026-02-28 23:04:05,216 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-02-28 23:04:05,217 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-02-28 23:04:05,217 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2026-02-28 23:04:05,237 - INFO - n_changepoints greater than number of observations. Using 10.
+2026-02-28 23:04:05,244 - INFO - Chain [1] start processing
+2026-02-28 23:04:05,961 - INFO - Chain [1] done processing
+2026-02-28 23:04:06,030 - INFO - Training XGBoost model...
+2026-02-28 23:04:06,110 - INFO - Selected Model based on MAE: XGBoost
+2026-02-28 23:04:06,115 - INFO - === FORECASTING MODULE COMPLETED ===
+2026-02-28 23:13:33,676 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:13:33,688 - INFO - Feature engineering completed
+2026-02-28 23:13:33,688 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 23:13:33,689 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 23:13:33,692 - INFO - Training Prophet model...
+2026-02-28 23:13:33,960 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-02-28 23:13:33,960 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-02-28 23:13:33,960 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2026-02-28 23:13:33,973 - INFO - n_changepoints greater than number of observations. Using 10.
+2026-02-28 23:13:33,986 - INFO - Chain [1] start processing
+2026-02-28 23:13:34,043 - INFO - Chain [1] done processing
+2026-02-28 23:13:34,118 - INFO - Training XGBoost model...
+2026-02-28 23:13:34,180 - INFO - Selected Model based on MAE: XGBoost
+2026-02-28 23:13:34,186 - INFO - === FORECASTING MODULE COMPLETED ===
+2026-02-28 23:14:27,704 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:14:27,706 - INFO - Filtering product: P1
+2026-02-28 23:14:27,718 - INFO - Feature engineering completed
+2026-02-28 23:14:27,724 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 23:14:27,729 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 23:14:27,731 - INFO - CRITICAL ERROR: Insufficient data points (22). Minimum 32 required.
+2026-02-28 23:14:34,229 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:14:34,232 - INFO - Filtering product: P2
+2026-02-28 23:14:34,239 - INFO - Feature engineering completed
+2026-02-28 23:14:34,239 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 23:14:34,240 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 23:14:34,241 - INFO - CRITICAL ERROR: Insufficient data points (22). Minimum 32 required.
+2026-02-28 23:14:39,268 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:14:39,271 - INFO - Filtering store: A
+2026-02-28 23:14:39,272 - INFO - Filtering product: P2
+2026-02-28 23:14:39,276 - INFO - Feature engineering completed
+2026-02-28 23:14:39,279 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 23:14:43,526 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:14:43,529 - INFO - Filtering store: B
+2026-02-28 23:14:43,532 - INFO - Filtering product: P2
+2026-02-28 23:14:43,556 - INFO - Feature engineering completed
+2026-02-28 23:14:43,566 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 23:14:43,568 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 23:14:43,569 - INFO - CRITICAL ERROR: Insufficient data points (22). Minimum 32 required.
+2026-02-28 23:15:01,622 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:15:01,625 - INFO - Filtering product: P2
+2026-02-28 23:15:01,634 - INFO - Feature engineering completed
+2026-02-28 23:15:01,644 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 23:15:01,644 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 23:15:01,645 - INFO - CRITICAL ERROR: Insufficient data points (22). Minimum 32 required.
+2026-02-28 23:15:04,142 - INFO - === DATA PROCESSING STARTED ===
+2026-02-28 23:15:04,149 - INFO - Feature engineering completed
+2026-02-28 23:15:04,150 - INFO - === DATA PROCESSING COMPLETED ===
+2026-02-28 23:15:04,150 - INFO - === FORECASTING MODULE STARTED ===
+2026-02-28 23:15:04,157 - INFO - Training Prophet model...
+2026-02-28 23:15:04,325 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-02-28 23:15:04,325 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-02-28 23:15:04,325 - INFO - Disabling daily seasonality. Run prophet with daily_seasonality=True to override this.
+2026-02-28 23:15:04,333 - INFO - n_changepoints greater than number of observations. Using 10.
+2026-02-28 23:15:04,340 - INFO - Chain [1] start processing
+2026-02-28 23:15:04,408 - INFO - Chain [1] done processing
+2026-02-28 23:15:04,487 - INFO - Training XGBoost model...
+2026-02-28 23:15:04,540 - INFO - Selected Model based on MAE: XGBoost
+2026-02-28 23:15:04,545 - INFO - === FORECASTING MODULE COMPLETED ===
+2026-03-01 11:08:12,866 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:13:07,145 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:13:09,391 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:13:09,448 - INFO - Processed 878 daily aggregates.
+2026-03-01 11:13:09,448 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:13:09,864 - INFO - Chain [1] start processing
+2026-03-01 11:13:10,407 - INFO - Chain [1] done processing
+2026-03-01 11:13:10,709 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 11:13:10,764 - INFO - Chain [1] start processing
+2026-03-01 11:13:10,842 - INFO - Chain [1] done processing
+2026-03-01 11:17:56,204 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:17:59,730 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:21:27,146 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:23:27,026 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:23:29,231 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:23:29,295 - INFO - Processing complete. Final count: 1 rows.
+2026-03-01 11:23:29,299 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:33:13,928 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:34:40,021 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:34:42,236 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:34:42,296 - INFO - Processing complete. 1 rows ready.
+2026-03-01 11:34:42,297 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:37:09,366 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:40:18,327 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:42:19,830 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:42:22,063 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:42:22,117 - INFO - Processing complete: 1 rows.
+2026-03-01 11:42:22,118 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:43:05,816 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:43:05,868 - INFO - Processing complete: 1 rows.
+2026-03-01 11:43:05,868 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:47:27,326 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:47:29,532 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:47:29,579 - INFO - Processing complete: 1 rows.
+2026-03-01 11:47:29,579 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:50:07,445 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:50:09,701 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:50:09,759 - INFO - Processing complete: 1 rows.
+2026-03-01 11:50:09,759 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:56:25,811 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:56:28,118 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:56:28,168 - INFO - Processing complete: 1 rows.
+2026-03-01 11:56:28,170 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:56:28,170 - INFO - CRITICAL: Data points are fewer than 5. Skipping models.
+2026-03-01 11:57:41,851 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:57:44,291 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:57:44,390 - INFO - Processing complete: 2 rows.
+2026-03-01 11:57:44,394 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:57:44,403 - INFO - CRITICAL: Data points are fewer than 5. Skipping models.
+2026-03-01 11:58:32,277 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:58:34,595 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:58:34,646 - INFO - Processing complete: 2 rows.
+2026-03-01 11:58:34,646 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:58:34,854 - INFO - Prophet failed: Insufficient non-NaN rows after split.
+2026-03-01 11:59:45,830 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 11:59:48,034 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 11:59:48,092 - INFO - Processing complete: 3 rows.
+2026-03-01 11:59:48,092 - INFO - === FORECASTING STARTED ===
+2026-03-01 11:59:48,275 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 11:59:48,295 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 11:59:49,013 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 12:00:24,533 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 12:00:24,582 - INFO - Processing complete: 31 rows.
+2026-03-01 12:00:24,582 - INFO - === FORECASTING STARTED ===
+2026-03-01 12:00:24,694 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 12:00:24,701 - INFO - Chain [1] start processing
+2026-03-01 12:00:24,799 - INFO - Chain [1] done processing
+2026-03-01 12:00:25,047 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 14:50:29,892 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 14:50:33,901 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 14:50:34,101 - INFO - Processing complete: 3 rows.
+2026-03-01 14:50:34,102 - INFO - === FORECASTING STARTED ===
+2026-03-01 14:50:34,565 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 14:50:34,590 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 14:50:35,946 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 14:50:55,041 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 14:50:55,187 - INFO - Processing complete: 16 rows.
+2026-03-01 14:50:55,187 - INFO - === FORECASTING STARTED ===
+2026-03-01 14:50:55,490 - INFO - n_changepoints greater than number of observations. Using 8.
+2026-03-01 14:50:55,505 - INFO - Chain [1] start processing
+2026-03-01 14:50:56,474 - INFO - Chain [1] done processing
+2026-03-01 14:50:56,791 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 14:52:22,657 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 14:52:22,779 - INFO - Processing complete: 31 rows.
+2026-03-01 14:52:22,779 - INFO - === FORECASTING STARTED ===
+2026-03-01 14:52:23,006 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 14:52:23,011 - INFO - Chain [1] start processing
+2026-03-01 14:52:23,161 - INFO - Chain [1] done processing
+2026-03-01 14:52:23,634 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 15:07:39,235 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 15:07:42,188 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 15:07:42,308 - INFO - Processing complete: 3 rows.
+2026-03-01 15:07:42,309 - INFO - === FORECASTING STARTED ===
+2026-03-01 15:07:42,537 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 15:07:42,548 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 15:07:43,387 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 15:07:53,649 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 15:07:53,713 - INFO - Processing complete: 25 rows.
+2026-03-01 15:07:53,713 - INFO - === FORECASTING STARTED ===
+2026-03-01 15:07:53,858 - INFO - n_changepoints greater than number of observations. Using 15.
+2026-03-01 15:07:53,873 - INFO - Chain [1] start processing
+2026-03-01 15:07:53,990 - INFO - Chain [1] done processing
+2026-03-01 15:07:54,314 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 15:07:54,337 - INFO - n_changepoints greater than number of observations. Using 19.
+2026-03-01 15:07:54,344 - INFO - Chain [1] start processing
+2026-03-01 15:07:54,497 - INFO - Chain [1] done processing
+2026-03-01 15:07:54,740 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 15:07:59,444 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 15:07:59,510 - INFO - Processing complete: 25 rows.
+2026-03-01 15:07:59,511 - INFO - === FORECASTING STARTED ===
+2026-03-01 15:07:59,700 - INFO - n_changepoints greater than number of observations. Using 15.
+2026-03-01 15:07:59,709 - INFO - Chain [1] start processing
+2026-03-01 15:07:59,797 - INFO - Chain [1] done processing
+2026-03-01 15:08:00,127 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 15:08:00,144 - INFO - n_changepoints greater than number of observations. Using 19.
+2026-03-01 15:08:00,149 - INFO - Chain [1] start processing
+2026-03-01 15:08:00,267 - INFO - Chain [1] done processing
+2026-03-01 15:08:00,461 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 15:46:33,800 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 15:46:52,820 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 15:46:52,884 - INFO - Processing complete: 3 rows.
+2026-03-01 15:46:52,885 - INFO - === FORECASTING STARTED ===
+2026-03-01 15:46:53,143 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 15:46:53,166 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 15:46:54,827 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 15:47:23,013 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 15:47:23,163 - INFO - Processing complete: 16 rows.
+2026-03-01 15:47:23,165 - INFO - === FORECASTING STARTED ===
+2026-03-01 15:47:23,532 - INFO - n_changepoints greater than number of observations. Using 8.
+2026-03-01 15:47:23,544 - INFO - Chain [1] start processing
+2026-03-01 15:47:24,880 - INFO - Chain [1] done processing
+2026-03-01 15:47:26,549 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 15:49:49,351 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 15:49:49,878 - INFO - Processing complete: 3 rows.
+2026-03-01 15:49:49,925 - INFO - === FORECASTING STARTED ===
+2026-03-01 15:49:50,471 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 15:49:50,699 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 15:49:52,436 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 15:49:53,159 - INFO - Processing complete: 3 rows.
+2026-03-01 15:49:53,205 - INFO - === FORECASTING STARTED ===
+2026-03-01 15:49:54,125 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 15:49:54,361 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 15:49:55,230 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 15:49:55,344 - INFO - Processing complete: 3 rows.
+2026-03-01 15:49:55,345 - INFO - === FORECASTING STARTED ===
+2026-03-01 15:49:55,645 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 15:49:55,737 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 15:49:57,273 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 15:49:58,194 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 15:49:59,608 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:12:34,191 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 16:12:56,000 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:12:56,120 - INFO - Processing complete: 3 rows.
+2026-03-01 16:12:56,121 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:12:56,504 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 16:12:56,549 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 16:12:59,549 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:13:22,788 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:13:22,888 - INFO - Processing complete: 31 rows.
+2026-03-01 16:13:22,889 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:13:23,106 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:13:23,123 - INFO - Chain [1] start processing
+2026-03-01 16:13:24,269 - INFO - Chain [1] done processing
+2026-03-01 16:13:24,924 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:18:54,144 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 16:18:59,497 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:18:59,593 - INFO - Processing complete: 3 rows.
+2026-03-01 16:18:59,595 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:18:59,781 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 16:18:59,814 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 16:19:00,154 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:19:16,106 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:19:16,215 - INFO - Processing complete: 31 rows.
+2026-03-01 16:19:16,216 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:19:16,469 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:19:16,487 - INFO - Chain [1] start processing
+2026-03-01 16:19:16,680 - INFO - Chain [1] done processing
+2026-03-01 16:19:17,039 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:19:23,086 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:19:23,146 - INFO - Processing complete: 31 rows.
+2026-03-01 16:19:23,147 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:19:23,282 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:19:23,298 - INFO - Chain [1] start processing
+2026-03-01 16:19:23,482 - INFO - Chain [1] done processing
+2026-03-01 16:19:23,840 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:19:37,810 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:19:37,891 - INFO - Processing complete: 31 rows.
+2026-03-01 16:19:37,891 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:19:38,029 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:19:38,042 - INFO - Chain [1] start processing
+2026-03-01 16:19:38,313 - INFO - Chain [1] done processing
+2026-03-01 16:19:38,661 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:44:01,941 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 16:44:04,810 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:44:04,870 - INFO - Processing complete: 3 rows.
+2026-03-01 16:44:04,870 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:44:05,058 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 16:44:05,073 - INFO - n_changepoints greater than number of observations. Using 0.
+2026-03-01 16:44:05,284 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 16:44:05,284 - INFO - Disabling weekly seasonality. Run prophet with weekly_seasonality=True to override this.
+2026-03-01 16:44:05,292 - INFO - n_changepoints greater than number of observations. Using 1.
+2026-03-01 16:44:05,673 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:44:20,067 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:44:20,108 - INFO - Processing complete: 31 rows.
+2026-03-01 16:44:20,108 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:44:20,227 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:44:20,240 - INFO - Chain [1] start processing
+2026-03-01 16:44:20,322 - INFO - Chain [1] done processing
+2026-03-01 16:44:20,570 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 16:44:20,587 - INFO - n_changepoints greater than number of observations. Using 23.
+2026-03-01 16:44:20,593 - INFO - Chain [1] start processing
+2026-03-01 16:44:20,781 - INFO - Chain [1] done processing
+2026-03-01 16:44:20,949 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:50:46,945 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:50:47,001 - INFO - Processing complete: 31 rows.
+2026-03-01 16:50:47,001 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:50:47,104 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:50:47,110 - INFO - Chain [1] start processing
+2026-03-01 16:50:47,201 - INFO - Chain [1] done processing
+2026-03-01 16:50:47,448 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 16:50:47,460 - INFO - n_changepoints greater than number of observations. Using 23.
+2026-03-01 16:50:47,466 - INFO - Chain [1] start processing
+2026-03-01 16:50:47,599 - INFO - Chain [1] done processing
+2026-03-01 16:50:47,758 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:51:09,556 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:51:09,597 - INFO - Processing complete: 31 rows.
+2026-03-01 16:51:09,597 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:51:09,710 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:51:09,715 - INFO - Chain [1] start processing
+2026-03-01 16:51:09,787 - INFO - Chain [1] done processing
+2026-03-01 16:51:10,036 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 16:51:10,049 - INFO - n_changepoints greater than number of observations. Using 23.
+2026-03-01 16:51:10,055 - INFO - Chain [1] start processing
+2026-03-01 16:51:10,181 - INFO - Chain [1] done processing
+2026-03-01 16:51:10,336 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:54:52,763 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:54:52,796 - INFO - Processing complete: 31 rows.
+2026-03-01 16:54:52,797 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:54:52,909 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:54:52,914 - INFO - Chain [1] start processing
+2026-03-01 16:54:52,985 - INFO - Chain [1] done processing
+2026-03-01 16:54:53,229 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 16:54:53,243 - INFO - n_changepoints greater than number of observations. Using 23.
+2026-03-01 16:54:53,249 - INFO - Chain [1] start processing
+2026-03-01 16:54:53,409 - INFO - Chain [1] done processing
+2026-03-01 16:54:53,572 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 16:55:03,993 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 16:55:04,045 - INFO - Processing complete: 31 rows.
+2026-03-01 16:55:04,045 - INFO - === FORECASTING STARTED ===
+2026-03-01 16:55:04,144 - INFO - n_changepoints greater than number of observations. Using 18.
+2026-03-01 16:55:04,149 - INFO - Chain [1] start processing
+2026-03-01 16:55:04,244 - INFO - Chain [1] done processing
+2026-03-01 16:55:04,491 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 16:55:04,505 - INFO - n_changepoints greater than number of observations. Using 23.
+2026-03-01 16:55:04,513 - INFO - Chain [1] start processing
+2026-03-01 16:55:04,642 - INFO - Chain [1] done processing
+2026-03-01 16:55:04,790 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 17:08:21,298 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 17:08:25,171 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 17:08:25,222 - INFO - Processing complete: 3 rows.
+2026-03-01 17:08:25,222 - INFO - === FORECASTING STARTED ===
+2026-03-01 17:08:35,692 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 17:08:35,741 - INFO - Processing complete: 16 rows.
+2026-03-01 17:08:35,742 - INFO - === FORECASTING STARTED ===
+2026-03-01 17:08:35,898 - INFO - n_changepoints greater than number of observations. Using 8.
+2026-03-01 17:08:35,904 - INFO - Chain [1] start processing
+2026-03-01 17:08:35,983 - INFO - Chain [1] done processing
+2026-03-01 17:08:36,265 - INFO - Winning Model: XGBoost
+2026-03-01 17:08:36,357 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 17:08:36,368 - INFO - n_changepoints greater than number of observations. Using 11.
+2026-03-01 17:08:36,374 - INFO - Chain [1] start processing
+2026-03-01 17:08:36,495 - INFO - Chain [1] done processing
+2026-03-01 17:08:36,824 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 17:09:03,920 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 17:09:03,961 - INFO - Processing complete: 16 rows.
+2026-03-01 17:09:03,961 - INFO - === FORECASTING STARTED ===
+2026-03-01 17:09:04,068 - INFO - n_changepoints greater than number of observations. Using 8.
+2026-03-01 17:09:04,074 - INFO - Chain [1] start processing
+2026-03-01 17:09:04,135 - INFO - Chain [1] done processing
+2026-03-01 17:09:04,422 - INFO - Winning Model: XGBoost
+2026-03-01 17:09:04,509 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 17:09:04,519 - INFO - n_changepoints greater than number of observations. Using 11.
+2026-03-01 17:09:04,526 - INFO - Chain [1] start processing
+2026-03-01 17:09:04,633 - INFO - Chain [1] done processing
+2026-03-01 17:09:04,807 - INFO - === OPTIMIZATION STARTED ===
+2026-03-01 17:29:03,036 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 17:29:05,647 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 17:29:05,710 - INFO - Processing complete: 3 rows.
+2026-03-01 17:29:05,711 - INFO - === FORECASTING STARTED ===
+2026-03-01 17:29:16,246 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 17:29:16,296 - INFO - Processing complete: 16 rows.
+2026-03-01 17:29:16,296 - INFO - === FORECASTING STARTED ===
+2026-03-01 17:29:16,461 - INFO - n_changepoints greater than number of observations. Using 8.
+2026-03-01 17:29:16,466 - INFO - Chain [1] start processing
+2026-03-01 17:29:16,532 - INFO - Chain [1] done processing
+2026-03-01 17:29:16,827 - INFO - Winning Model: XGBoost
+2026-03-01 17:29:16,913 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 17:29:16,927 - INFO - n_changepoints greater than number of observations. Using 11.
+2026-03-01 17:29:16,934 - INFO - Chain [1] start processing
+2026-03-01 17:29:17,044 - INFO - Chain [1] done processing
+2026-03-01 17:32:22,117 - ERROR - Importing plotly failed. Interactive plots will not work.
+2026-03-01 17:32:24,643 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 17:32:24,685 - INFO - Processing complete: 3 rows.
+2026-03-01 17:32:24,687 - INFO - === FORECASTING STARTED ===
+2026-03-01 17:32:40,599 - INFO - === DATA PROCESSING STARTED ===
+2026-03-01 17:32:40,646 - INFO - Processing complete: 16 rows.
+2026-03-01 17:32:40,647 - INFO - === FORECASTING STARTED ===
+2026-03-01 17:32:40,799 - INFO - n_changepoints greater than number of observations. Using 8.
+2026-03-01 17:32:40,811 - INFO - Chain [1] start processing
+2026-03-01 17:32:40,873 - INFO - Chain [1] done processing
+2026-03-01 17:32:41,156 - INFO - Winning Model: XGBoost
+2026-03-01 17:32:41,256 - INFO - Disabling yearly seasonality. Run prophet with yearly_seasonality=True to override this.
+2026-03-01 17:32:41,267 - INFO - n_changepoints greater than number of observations. Using 11.
+2026-03-01 17:32:41,275 - INFO - Chain [1] start processing
+2026-03-01 17:32:41,391 - INFO - Chain [1] done processing
+2026-03-01 17:32:41,783 - INFO - === OPTIMIZATION STARTED ===
