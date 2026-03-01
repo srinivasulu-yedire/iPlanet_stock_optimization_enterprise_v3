@@ -1,0 +1,19 @@
+Open your VS Code terminal and run these commands:
+
+Create Environment:
+py -m venv venv
+
+Activate: (Windows):
+venv\Scripts\activate
+
+Install:
+pip install -r requirements.txt
+pip install openpyxl
+
+Run:
+streamlit run src/streamlit_app.py
+
+//force load browser:
+streamlit run src/streamlit_app.py --server.headless false
+
+https://apify.com/
