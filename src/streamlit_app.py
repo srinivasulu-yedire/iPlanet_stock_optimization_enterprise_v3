@@ -8,6 +8,7 @@ import json
 # Ensure project root is in path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
+from utils.pdf_generator import generate_strategy_pdf
 from data_processing import process_data
 from forecasting import run_forecasting
 from optimization import calculate_inventory
@@ -210,16 +211,46 @@ if os.path.exists(SALES_PATH) and os.path.exists(MASTER_PATH):
                 c5.metric("Total Annual Inv. Cost", f"${dynamic_metrics['Total Annual Cost']:,.2f}")
 
             # ==========================================
-            # TAB 3: GENAI INTEGRATION
+            # TAB 3: GENAI INTEGRATION (Now with PDF Export)
             # ==========================================
             with tab3:
                 st.markdown("### 🧠 Executive Strategy Summary")
-                st.write("AI-generated insights based on the current forecasting models.")
+                st.write("AI-generated insights acting as your Senior Supply Chain Director.")
                 
+                # We use session state to remember the summary so the download button works
+                if "ai_summary" not in st.session_state:
+                    st.session_state.ai_summary = None
+
                 if st.button("Generate AI Insights"):
-                    with st.spinner("Analyzing metrics with AI..."):
-                        summary = generate_summary(model, p_metrics, x_metrics)
-                        st.info(summary)
+                    with st.spinner("Analyzing ML metrics and inventory data..."):
+                        
+                        st.session_state.ai_summary = generate_summary(
+                            product_name=selected_product,
+                            selected_model=model,
+                            p_metrics=p_metrics,
+                            x_metrics=x_metrics,
+                            inventory_metrics=base_metrics,
+                            horizon=horizon
+                        )
+                
+                # Display the summary and the PDF download button if the summary exists
+                if st.session_state.ai_summary:
+                    st.info(st.session_state.ai_summary)
+                    
+                    # Generate the PDF in memory
+                    pdf_bytes = generate_strategy_pdf(
+                        product_name=selected_product,
+                        model_name=model,
+                        inventory_metrics=base_metrics,
+                        ai_summary=st.session_state.ai_summary
+                    )
+                    
+                    st.download_button(
+                        label="📄 Download Official Strategy Report (PDF)",
+                        data=pdf_bytes,
+                        file_name=f"iPlanet_Strategy_{selected_product.replace(' ', '_')}.pdf",
+                        mime="application/pdf"
+                    )
 
             # ==========================================
             # TAB 4: BULK EXPORT
